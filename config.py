@@ -17,7 +17,7 @@ API_ID = int(environ.get("API_ID", "20714788"))
 API_HASH = environ.get("API_HASH", "25103f6394df6328a3ac776bf83f0e26")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7661941403:AAGp-YoYVosxgZUYb0wrhVo2FvTFD1LK-tI")
 
-PICS = (environ.get('PICS', 'https://i.ibb.co/rK3cz0Tk/photo-2025-04-20-17-15-52-7495445331476217860.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://i.ibb.co/fV4vD7r3/photo-2025-04-22-07-32-05-7496037049120587780.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7009595359').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "mikasa_filestore_bot") # without @
 PORT = environ.get("PORT", "8080")
@@ -30,8 +30,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://deepandhinesh0:4DwxtL8aBb5jw4PS@cluster0.pkw8tje.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "deepandhinesh0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://filestore:BFsHO5KRZ7XJqYGk@cluster0.v21xlgp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "filestore")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', False)) # Set True or False
