@@ -18,7 +18,7 @@ API_HASH = environ.get("API_HASH", "25103f6394df6328a3ac776bf83f0e26")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7661941403:AAGp-YoYVosxgZUYb0wrhVo2FvTFD1LK-tI")
 
 PICS = (environ.get('PICS', 'https://i.ibb.co/fV4vD7r3/photo-2025-04-22-07-32-05-7496037049120587780.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7009595359').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7009595359 1416841137').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "mikasa_filestore_bot") # without @
 PORT = environ.get("PORT", "8080")
 
